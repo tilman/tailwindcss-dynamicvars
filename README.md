@@ -25,7 +25,7 @@ module.exports = {
 ```
 
 Supports numeric ranges and predefined values. Will replace dynamic elements in template strings with your predefined vars during postcss build time.
-For example the class `md:group-hover/subnav-${subnavIndex}:h-auto` would become `md:group-hover/subnav-**1**:h-auto, md:group-hover/subnav-**2**:h-auto, md:group-hover/subnav-**3**:h-auto`
+For example the class `md:group-hover/subnav-${subnavIndex}:h-auto` would become `md:group-hover/subnav-1:h-auto, md:group-hover/subnav-2:h-auto, md:group-hover/subnav-3:h-auto`
 
 For predefined values `group-hover/hello-${someOtherIndex}:w-full` would become `group-hover/hello-a:w-full, group-hover/hello-b:w-full, group-hover/hello-c:w-full`
 
