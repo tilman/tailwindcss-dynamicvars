@@ -17,7 +17,6 @@ module.exports = (opts = {}) => {
         if (rule?.nodes?.find((node) => node?.value.includes(varname))) {
           // if rule declaration has this varname we can not combine all rules by ', ' and
           // instead have to write all of them out wiht different declaration values
-          console.log(rule);
           if (isRangeOrDefaultRrange) {
             // create and append new rules
             Array(endRange - startRange)
